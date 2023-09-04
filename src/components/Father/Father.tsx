@@ -8,6 +8,7 @@ const FatherComponent: React.FC = () => {
   const { setData } = context;
   const [inputValue, setInputValue] = useState("");
 
+  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
   };

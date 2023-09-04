@@ -6,12 +6,12 @@ const ChildComponent: React.FC = () => {
   if (!context) return null;
   const { stringi } = context;
   const { str } = stringi;
-
   return (
     <div>
       <h4>Child</h4>
-      <div> print data: {str} </div>
+      <div> print data: {str} </div>      
     </div>
+    
   );
 };
 
