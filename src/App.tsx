@@ -1,12 +1,12 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
-
+import Grandpa from "./components/Grandpa/Grandpa";
+import ContextProvider from "./components/TextContext/TextContext";
+import FatherComponent from "./components/Father/Father";
 function App() {
   return (
-    <>
-      <Example />{" "}
-    </>
+    <ContextProvider>
+      <Grandpa />
+    </ContextProvider>
   );
 }
-
 export default App;
